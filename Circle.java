@@ -1,10 +1,8 @@
-/*
+package ShapeRepresentations;/*
 THIS CODE WAS MY OWN WORK, IT WAS WRITTEN WITHOUT CONSULTING
 CODE WRITTEN BY OTHER STUDENTS OR COPIED FROM ONLINE RESOURCES. LAURA NEFF
 */
 
-
-package ShapeRepresentations;
 
 // This class represents a circle shape
 public class Circle {
@@ -29,12 +27,9 @@ public class Circle {
       y = 0.0;
     }
 
-    // TODO: [2 points] Complete this overloaded constructor
-    // Parameter r should be the radius length
-    // Parameter ex should be the x coordinate
-    // Parameter why should be the y coordinate
+
     public Circle(double r, double ex, double why) {
-    	// ... Add your code here ... //
+
 
         radius = r;
         x = ex;
@@ -58,23 +53,17 @@ public class Circle {
       return radius * radius * Math.PI;
     }
 
-    // TODO: [2 points] A public method you need to write to
-    // compute and return the circumference of the circle
 
     public double getCircumference() {
-    	// ... Add your code here ... //
+
 
         return(2*Math.PI*radius);
     }
 
-    // TODO: [3 points] A public method that compares the sizes of two circles: the circle
-    // represented by the current object, and the circle passed as a parameter.
-    // Example: circleA.isBiggerThan(circleB) should return true if circleA
-    // has a larger area than circleB, false otherwise.
-    // NOTE: You may need to modify the parameter list!
+
 
     public boolean isBiggerThan(Circle b) {
-      // ... Add your code here ... //
+
 
         double thisArea = this.radius*this.radius*Math.PI;
         double areaB = b.radius*b.radius*Math.PI;
@@ -85,45 +74,30 @@ public class Circle {
 
     }
 
-    // TODO: [6 points] A public method that takes as input an x coordinate (as a double)
-    // and a y coordinate (a double), and returns true if the (x, y) coordinate
-    // is inside the current circle, false otherwise.
-    // NOTE: You may need to modify the parameter list!
+
     public boolean containsPoint(double x, double y) {
-    	// ... Add your code here ... //
+
 
         double distance = Math.pow((x - this.x),2) + Math.pow((y - this.y),2);
         return(distance <= this.radius*this.radius);
 
     }
 
-    // TODO: [3 points] Write a method named setRadius that sets this object's radius
-    // based on the passed parameter (of type double).
-    // The method should not return anything.
-    // ... Add your method setRadius here here ... //
+
 
     public void setRadius(double radius){
         this.radius = radius;
     }
 
-    // TODO: [3 points] Write a method named setCenter that sets this object's center.
-    // The method takes two doubles as parameters: ex and why.
-    // It should set the x coordinate of the circle to ex,
-    // and the y coordinate of the circle to why.
-    // The method should not return anything.
-    // ... Add your method here ... //
 
     public void setCenter(double ex, double why){
         x = ex;
         y = why;
     }
 
-    // TODO: [1 point] Complete the overriden method toString which should
-    // return the string representation of this ShapeRepresentations.Circle object, as follows:
-    // "This circle is centered at point <display_coordinate_of_center_here>
-    // with radius <display_radius>"
+
     @Override
     public String toString() {
-        return "This circle is centered at point (" + x + ", " + y + ")"; // TODO
+        return "This circle is centered at point (" + x + ", " + y + ")";
     }
 }
