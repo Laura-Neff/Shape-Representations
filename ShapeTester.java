@@ -1,4 +1,4 @@
-//package ShapeRepresentations;
+package ShapeRepresentations;
 
 import ShapeRepresentations.*;
 
@@ -69,5 +69,11 @@ public class ShapeTester {
   // and returns true if the first circle contains the center of the second circle,
   // false otherwise.
   // ... Add your code here ... //
+
+    public boolean containsCenter(Circle a, Circle b){
+
+        a.containsPoint(b.x,b.y);
+
+    }
 
 }
