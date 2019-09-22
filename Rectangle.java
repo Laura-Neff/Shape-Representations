@@ -22,6 +22,13 @@ public class Rectangle {
 		// named Ell, Eich, Ex, and Why for L, H, x, and y, respectively.
 		// ... Add your code here ... //
 
+		public Rectangle(double Ell, double Eich, Double Ex, Double Why){
+			L = Ell;
+			H = Eich;
+			x = Ex;
+			y = Why;
+		}
+
 		// TODO: [2 points] Write a method called getLength which returns the length.
 		// ... Add your code here ... //
 
