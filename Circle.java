@@ -29,6 +29,10 @@ public class Circle {
     // Parameter why should be the y coordinate
     public Circle(double r, double ex, double why) {
     	// ... Add your code here ... //
+
+        radius = r;
+        x = ex;
+        y = why;
     }
 
     // A public getter method for retrieving the radius
