@@ -59,6 +59,8 @@ public class Rectangle {
 		// the perimeter of the rectangle.
 		// ... Add your code here ... //
 
+		public double perimeter(){return ((2*H) + (2*L));}
+
 		// TODO: [3 points] Write a method called area which computes and returns the
 		// area of the rectangle.
 		// ... Add your code here ... //
