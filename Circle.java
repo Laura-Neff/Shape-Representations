@@ -83,8 +83,12 @@ public class Circle {
     // and a y coordinate (a double), and returns true if the (x, y) coordinate
     // is inside the current circle, false otherwise.
     // NOTE: You may need to modify the parameter list!
-    public boolean containsPoint() {
+    public boolean containsPoint(double x, double y) {
     	// ... Add your code here ... //
+
+        double distance = Math.pow((x - this.x),2) + Math.pow((y - this.y),2);
+        return(distance <= this.radius*this.radius);
+
     }
 
     // TODO: [3 points] Write a method named setRadius that sets this object's radius
