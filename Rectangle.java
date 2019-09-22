@@ -32,6 +32,8 @@ public class Rectangle {
 		// TODO: [2 points] Write a method called getLength which returns the length.
 		// ... Add your code here ... //
 
+		public double getLength(){return L;}
+
 		// TODO: [2 points] Write a method called getHeight which returns the height.
 		// ... Add your code here ... //
 
