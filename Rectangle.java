@@ -43,9 +43,17 @@ public class Rectangle {
 		// called Ell and uses it to set the length of the rectangle.
 		// ... Add your code here ... //
 
+	    public void setLength(double Ell){
+			L = Ell;
+		}
+
 		// TODO: [2 points] Write a method called setHeight which takes as input a double
 		// called Eich and uses it to set the height of the rectangle.
 		// ... Add your code here ... //
+
+		public void setHeight(double Eich){
+			H = Eich;
+		}
 
 		// TODO: [3 points] Write a method called perimeter which computes and returns
 		// the perimeter of the rectangle.
