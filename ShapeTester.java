@@ -1,5 +1,7 @@
 package ShapeRepresentations;
 
+import org.w3c.dom.css.Rect;
+
 public class ShapeTester {
 
   // TODO: [2 points] Write the method isLarger which takes as input two shapes
@@ -21,6 +23,12 @@ public class ShapeTester {
   // a ShapeRepresentations.Circle object followed by a ShapeRepresentations.Rectangle object and returns
   // the length of the perimeter of the longer of the two objects.
   // ... Add your code here ... //
+
+    public double longerPerim(Circle a, Rectangle b){
+        double circumference = a.getCircumference();
+        double perimeter = b.perimeter();
+        return(Math.max(circumference, perimeter));
+    }
 
   // TODO: [2 points] Write another version of the method longerPerim which has the
   // same name and functionality but it takes as input a ShapeRepresentations.Rectangle object
