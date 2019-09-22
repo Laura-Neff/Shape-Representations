@@ -36,5 +36,17 @@ public class Cylinder extends Circle {
         this.height = height;
     }
 
+//    Your class should define the methods getHeight (which returns the cylinder height), and
+//    setHeight (which updates the cylinder height).
+
+    public double getHeight(){
+        return(this.height);
+    }
+
+    public void setHeight(double height){
+        this.height = height;
+
+    }
+
 
 }
