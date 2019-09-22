@@ -8,6 +8,15 @@ public class ShapeTester {
   // false otherwise.
   // ... Add your code here ... //
 
+    public boolean isLarger(Circle a, Rectangle b){
+
+        double areaCircle = a.getArea();
+        double areaRectangle = b.area();
+
+        return(areaCircle > areaRectangle);
+
+    }
+
   // TODO: [2 points] Write the method longerPerim which takes as input
   // a ShapeRepresentations.Circle object followed by a ShapeRepresentations.Rectangle object and returns
   // the length of the perimeter of the longer of the two objects.
