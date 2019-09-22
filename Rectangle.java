@@ -37,6 +37,8 @@ public class Rectangle {
 		// TODO: [2 points] Write a method called getHeight which returns the height.
 		// ... Add your code here ... //
 
+		public double getHeight(){return H;}
+
 		// TODO: [2 points] Write a method called setLength which takes as input a double
 		// called Ell and uses it to set the length of the rectangle.
 		// ... Add your code here ... //
