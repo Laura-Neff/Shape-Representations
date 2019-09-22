@@ -58,6 +58,13 @@ public class ShapeTester {
   // followed by a ShapeRepresentations.Circle object.
   // ... Add your code here ... //
 
+    public double largerArea (Rectangle b, Circle a){
+        double areaCircle = a.getArea();
+        double areaRectangle = b.area();
+        return(Math.max(areaCircle, areaRectangle));
+
+    }
+
   // TODO: [10 points] Write the method containsCenter which takes as input two circles,
   // and returns true if the first circle contains the center of the second circle,
   // false otherwise.
