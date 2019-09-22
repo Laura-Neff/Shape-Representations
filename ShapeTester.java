@@ -1,6 +1,6 @@
-package ShapeRepresentations;
+//package ShapeRepresentations;
 
-import org.w3c.dom.css.Rect;
+import ShapeRepresentations.*;
 
 public class ShapeTester {
 
