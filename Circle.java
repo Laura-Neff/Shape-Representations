@@ -56,6 +56,8 @@ public class Circle {
     // compute and return the circumference of the circle
     public double getCircumference() {
     	// ... Add your code here ... //
+
+        return(2*Math.PI*radius);
     }
 
     // TODO: [3 points] A public method that compares the sizes of two circles: the circle
