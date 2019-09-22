@@ -12,6 +12,12 @@ public class Rectangle {
 		// side lengths 1 whose bottom left corner is at (0.0,0.0)
 		// ... Add your code here ... //
 
+		public Rectangle(){
+			L = 1;
+			x = 0;
+			y = 0;
+		}
+
 		// TODO: [3 points] Now write a constructor that takes all four inputs,
 		// named Ell, Eich, Ex, and Why for L, H, x, and y, respectively.
 		// ... Add your code here ... //
