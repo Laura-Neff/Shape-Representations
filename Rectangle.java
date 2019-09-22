@@ -65,4 +65,6 @@ public class Rectangle {
 		// area of the rectangle.
 		// ... Add your code here ... //
 
+		public double area(){return(L*H);}
+
 }
