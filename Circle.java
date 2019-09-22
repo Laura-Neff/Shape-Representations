@@ -54,6 +54,7 @@ public class Circle {
 
     // TODO: [2 points] A public method you need to write to
     // compute and return the circumference of the circle
+
     public double getCircumference() {
     	// ... Add your code here ... //
 
@@ -65,8 +66,17 @@ public class Circle {
     // Example: circleA.isBiggerThan(circleB) should return true if circleA
     // has a larger area than circleB, false otherwise.
     // NOTE: You may need to modify the parameter list!
-    public boolean isBiggerThan() {
+
+    public boolean isBiggerThan(Circle b) {
       // ... Add your code here ... //
+
+        double thisArea = this.radius*this.radius*Math.PI;
+        double areaB = b.radius*b.radius*Math.PI;
+
+        return(thisArea > areaB);
+
+
+
     }
 
     // TODO: [6 points] A public method that takes as input an x coordinate (as a double)
