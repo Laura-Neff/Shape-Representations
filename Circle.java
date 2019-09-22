@@ -107,6 +107,11 @@ public class Circle {
     // The method should not return anything.
     // ... Add your method here ... //
 
+    public void setCenter(double ex, double why){
+        x = ex;
+        y = why;
+    }
+
     // TODO: [1 point] Complete the overriden method toString which should
     // return the string representation of this ShapeRepresentations.Circle object, as follows:
     // "This circle is centered at point <display_coordinate_of_center_here>
