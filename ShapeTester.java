@@ -78,7 +78,7 @@ public class ShapeTester {
 
     public boolean containsCenter(Circle a, Circle b){
 
-        a.containsPoint(b.x,b.y);
+        return(a.containsPoint(b.x,b.y));
 
     }
 
