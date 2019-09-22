@@ -96,6 +96,10 @@ public class Circle {
     // The method should not return anything.
     // ... Add your method setRadius here here ... //
 
+    public void setRadius(double radius){
+        this.radius = radius;
+    }
+
     // TODO: [3 points] Write a method named setCenter that sets this object's center.
     // The method takes two doubles as parameters: ex and why.
     // It should set the x coordinate of the circle to ex,
