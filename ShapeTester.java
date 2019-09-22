@@ -36,10 +36,22 @@ public class ShapeTester {
   // the perimeter of the longer of the two objects.
   // ... Add your code here ... //
 
+    public double longerPerim(Rectangle a, Circle b){
+        double perimeter = a.perimeter();
+        double circumference = b.getCircumference();
+        return(Math.max(perimeter, circumference));
+    }
+
   // TODO: [2 points] Write the method largerArea which takes as input
   // a ShapeRepresentations.Circle object followed by a ShapeRepresentations.Rectangle object and returns
   // the area of the larger of the two objects.
   // ... Add your code here ... //
+
+    public double largerArea(Circle a, Rectangle b){
+        double areaCircle = a.getArea();
+        double areaRectangle = b.area();
+        return(Math.max(areaCircle, areaRectangle));
+    }
 
   // TODO: [2 points] Writer another version of the method largerArea which has the
   // same name and functionality but it takes as input a ShapeRepresentations.Rectangle object
