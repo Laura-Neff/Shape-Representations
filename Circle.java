@@ -118,6 +118,6 @@ public class Circle {
     // with radius <display_radius>"
     @Override
     public String toString() {
-        return ""; // TODO
+        return "This circle is centered at point (" + x + ", " + y + ")"; // TODO
     }
 }
