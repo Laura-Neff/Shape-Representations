@@ -48,5 +48,16 @@ public class Cylinder extends Circle {
 
     }
 
+//    Your class should override the getArea method from class Circle to make it return the area
+//    of the Cylinder object instead. Your method implementation here must utilize the getArea
+//    computation already defined in the super class Circle. (You may invoke other methods from
+//    the super class Circle as well, if needed.)
+
+    @Override
+    public double getArea() {
+
+        return(this.getCircumference()*radius + this.getCircumference()*height);
+    }
+
 
 }
