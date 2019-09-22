@@ -59,5 +59,13 @@ public class Cylinder extends Circle {
         return(this.getCircumference()*radius + this.getCircumference()*height);
     }
 
+//    Your class should define the method getVolume which returns the volume of the Cylinder
+//            object (as a double value).
+
+    public double getVolume(){
+        return(this.getArea()*height);
+    }
+
+
 
 }
